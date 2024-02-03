@@ -87,7 +87,7 @@ img {
   word-wrap: break-word; /* Ensure word wrapping */
 }
 
-.about-part2 {
+.abp2{
   width: 40%;
   height: 67%;
   padding: 0 30px;
@@ -95,11 +95,14 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
+  
 }
 
-.about-part2 > h4 {
+.abp2 > h4 {
   font-size: 25px;
   font-weight: 600;
+  margin-bottom: 150px;
 }
 
 .icons i {
