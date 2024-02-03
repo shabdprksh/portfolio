@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(231, 144, 153);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: transparent;
+  padding: 30px 40px;
+}
+
+.nav h3 {
+  background-color: black;
+  color: white;
+  padding: 8px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 60px;
+  margin-left: 5px;
+}
+
+#intro {
+  height: 45%;
+  width: 100%;
+  padding: 50px 30px;
+  letter-spacing: 3px;
+}
+
+#intro h1 {
+  font-size: 90px;
+  font-weight: 300;
+  line-height: 90px;
+}
+
+.place {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#intro h3 {
+  font-size: 15px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.about-s {
+  height: 55%;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: -4px 0;
+}
+
+.about-s h2 {
+  width: 55%; /* Allow the width to adjust based on content */
+  font-size: 55px;
+  line-height: 60px; /* Adjust line height as needed */
+  font-weight: 700;
+  word-wrap: break-word; /* Ensure word wrapping */
+}
+
+.about-part2 {
+  width: 40%;
+  height: 67%;
+  padding: 0 30px;
+  border-left: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-part2 > h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.icons i {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
