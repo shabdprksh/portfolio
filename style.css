@@ -5,59 +5,97 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
- 
 }
 
 html,
 body {
   height: 100%;
   width: 100%;
-  background-image: url('img/nnnoise.svg');
-  
+  background-image: url("img/nnnoise.svg");
 }
 
-a:link { 
-  text-decoration: none; 
-} 
-a:visited { 
-  text-decoration: none; 
-} 
-a:hover { 
-  text-decoration: none; 
-} 
-a:active { 
-  text-decoration: none; 
+a:link {
+  text-decoration: none;
 }
-
-
-
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
 
 .main {
   height: 100%;
   width: 100%;
-  
 }
 
 .nav {
-  position: fixed;
   width: 100%;
+  height: 100px;
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  background-color: transparent;
+  font-size: 15px;
+  justify-content: space-between;
   padding: 30px 40px;
+  background-color: transparent;
 }
 
-.nav h3 {
+.navp1 {
+ 
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navp1 h3 {
+  width: 60%;
+
+  font-size: 15px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.menu {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.menu h4 {
   background-color: black;
   color: white;
-  padding: 8px 12px;
-  font-size: 12px;
+  padding: 4px 8px;
+  font-size: 14px;
   font-weight: 500;
   border-radius: 60px;
   margin-left: 5px;
+  margin-top: -4px;
 }
 
+.navp2 {
+  width: 19%;
+  gap: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav h2 {
+  font-size: 20px;
+}
+
+.pill {
+  background-color: rgb(219, 0, 0);
+  width: 15px;
+  height: 5px;
+  margin-top: -5px;
+  margin-left: 25px;
+  border-radius: 20px;
+}
 #intro {
   height: 45%;
   width: 100%;
@@ -105,7 +143,7 @@ img {
   word-wrap: break-word; /* Ensure word wrapping */
 }
 
-.abp2{
+.abp2 {
   width: 40%;
   height: 67%;
   padding: 0 30px;
@@ -113,8 +151,6 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
-  
 }
 
 .abp2 > h4 {
@@ -132,18 +168,12 @@ img {
   margin-right: 10px;
 }
 
-
-
-
-.page-2{
- 
-
-padding-left: 30px;
-padding-right: 30px;
+.page-2 {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .work {
- 
   height: 55%;
   width: 100%;
   padding-top: 30px;
@@ -165,27 +195,20 @@ padding-right: 30px;
 .work2 {
   width: 80%;
   height: 250px;
-
 }
 
-
-.work2{
+.work2 {
   display: flex;
   flex-direction: column;
- 
+
   padding-left: 38px;
-  
 }
 
-
-.wp2-1{
-  
+.wp2-1 {
   height: 50%;
   border-bottom: 2px solid black;
 }
 
-.wp2-2{
- 
+.wp2-2 {
   height: 50%;
 }
-
