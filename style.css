@@ -58,6 +58,8 @@ a:active {
 }
 
 .menu {
+  margin-left: -5px;
+
   width: 100%;
   position: fixed;
   display: flex;
@@ -72,7 +74,7 @@ a:active {
   font-size: 14px;
   font-weight: 500;
   border-radius: 60px;
-  margin-left: -6px;
+
   margin-top: -4px;
 }
 
