@@ -11,7 +11,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-image: url("img/nnnoise.svg");
+  background-image: url("img/gggrain.svg");
 }
 
 a:link {
@@ -43,7 +43,6 @@ a:active {
 }
 
 .navp1 {
- 
   width: 90%;
   display: flex;
   justify-content: space-between;
@@ -96,6 +95,13 @@ a:active {
   margin-left: 25px;
   border-radius: 20px;
 }
+
+.line {
+  background-color: black;
+  height: 2px;
+  width: 800px;
+}
+
 #intro {
   height: 45%;
   width: 100%;
