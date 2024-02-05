@@ -43,15 +43,14 @@ a:active {
 }
 
 .navp1 {
-  width: 90%;
+  width: 91%;
   display: flex;
   justify-content: space-between;
 }
 
-.navp1 h3 {
+.des {
   width: 60%;
-
-  font-size: 15px;
+  font-size: 13px;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
